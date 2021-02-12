@@ -1,7 +1,7 @@
 # Bash_Answers
 
 ### Question 1
-  ps |wc -l
+ ps |wc -l
  4 processes
 
 ### Question 2
