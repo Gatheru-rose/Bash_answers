@@ -5,8 +5,7 @@
  4 processes
 
 ### Question 2
-invoke.sh script which has
-    # indicating time date uptime and users
+invoke.sh script which has commands indicating time, date, uptime and users.
     date && time && uptime && who > updates.log
 
 ### Question 3
@@ -19,7 +18,8 @@ invoke.sh script which has
 ### Question 5
  mv seqs.txt sequence.fasta
  Rename it by using the "mv" command.
- That is, "mv seqs.txt sequences.fasta". Yes, it will overwrite the sequences.fasta file if it already existed.
+ That is, "mv seqs.txt sequences.fasta". 
+ Yes, it will overwrite the sequences.fasta file if it already existed.
 
 ### Question 6
   nano universal_greeting.txt
@@ -39,7 +39,7 @@ using wget (webget) command directly downloads the raw file.
   wc -l test.fa
 One can count the number of lines present in the test.fa file using the wc command with the -l flag to specify line count.
   grep -c "^>" test.fa
-For the number of sequences: grep -c "^>" test.fa ; using the grep command with the -c option to count lines that start with the > sign "^>" which indicate the start of a different sequence.
+For the number of sequences: grep -c "^>" test.fa ; using the grep command with the -c option to count lines that start with the "greater than" sign "^>" which indicate the start of a different sequence.
 
 ### Question 10
   grep -E "^>" test.fa > indentifiers.txt
@@ -54,7 +54,8 @@ Using the grep command with an E flag indicating an extended pattern, then follo
    grep -E "^>" test.fa
 
 ### Question 13
-   species.sh script- (grep ">" test.fa | sort > identities.txt && sed -i "s/PREDICTED: //g" identities.txt && cut -d ' ' -f 2,3 identities.txt)
+   species.sh script
+  (grep ">" test.fa | sort > identities.txt && sed -i "s/PREDICTED: //g" identities.txt && cut -d ' ' -f 2,3 identities.txt)
 
 ### Question 14
 bash species.sh test.fa | sort| uniq -c
