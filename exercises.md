@@ -90,4 +90,10 @@ for i in range(11):
     if i >= 4:
         print(i)
  ```
-        
+ ```
+ for x in range(10):
+    while 5 < x <= 10:
+        print(x)
+        x = x+1
+print("Bye")
+```
