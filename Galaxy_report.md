@@ -1,16 +1,27 @@
-# **Report about Galaxy training**
+# **Galaxy training report**
 
-I participated virtually in the GTN Smörgåsbord: A Global Galaxy Course from 15th to 19th February 2021. The course had slides, videos and hands on tutorial so 
-that one can learn how to carryout data analysis using tools available on Galaxy servers.
 ---
+### **Introduction**
+
+[Galaxy](https://galaxyproject.org/community/) is an online platform developed by a community of scientists. This platform is distributed in different regions by presence of [servers](https://galaxyproject.org/usegalaxy/). These servers are accessible virtually and contain various tools which aid in the analysis of different types of data. From galaxy one can access training materials from the galaxy training network (GTN) [page](https://training.galaxyproject.org/). These page consists  of a wide range of tutorials on how to use the inbuilt tools in galaxy to carry out data analysis. From 15th to 19th February 2021, I participated virtually in the GTN Smörgåsbord: [A Global Course](https://training.galaxyproject.org/training-material/smorgasbord.html). This workshop comprised of different GTN tutorials exposing one to a wide range topics during the entire week.
+
+---
+
+### **Objectives**
+1. To familiarize with galaxy platform and learn data analysis using galaxy.
+2. To understand NGS analysis using galaxy tools.
+3. To determine the importance of using certain tools for your data analysis over others.
+
+---
+
 ### ***Skills learnt**
+
 1. Performing Quality control on FASTQ files.
-   Quality control is an essential step which should be carried out before any downstream analysis of your data. This is important so that one can know the status
-   of their sequence files which can affect further analysis when not inspected earlier. Galaxy offers FastQC tool which provides a summary of the quality of your 
-   sequenced data. It gives a report on the sequence quality score to the level of seqeunce duplications. Through assesing the quality of FASTQ files, further tools
-   can then be used for quality correction depending on the output of FastQC, such tools include:
-    a) Cutadapt- which trims adapters from the sequence, and also trims the low quality score regions.
-    b) Filter- This tool filters your FASTQ files based if there are too many N basecalls in the sequence, filters off the short sequence length and sequences with
-       low mean quality score.
-    c) MultiQC- This tool aggregates the ouput of the a specified tool in this case, FastQC reports into one report thus making it easier to compare different files 
-       at once.
+   Quality control is an essential step which should be carried out before any downstream analysis of your data. This is important so as to know the status of your FASTQ files. When the quality control step is not done during NGS analysis, this can affect downstream analysis.
+   Galaxy offers FastQC tool which checks the quality of the sequence files, it then provides a report in form of a webpage which outputs parameters relevant to the status of your sequence files. By assessing these parameters such as; sequence quality score, per base sequence quality, one will know the quality of the FASTQ files and whether any quality correction is needed.
+   There are tools available on galaxy for sequence quality correction depending on the FastQc results. They include:
+   
+   a). Cutadapt- It trims adapter sequences and also trims off low quality score regions from the files.
+   b). Filter- This tool filters FASTQ files if there are many N basecalls in the sequence, reads with short sequence length as well those with low mean quality score.
+   c). MultiQc- This tool is useful in the aggregation of different outputs from a specific tool such as FastQC thus making it easy to compare different results at once.
+
