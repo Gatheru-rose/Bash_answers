@@ -22,6 +22,8 @@
    There are tools available on galaxy for sequence quality correction depending on the FastQc results. They include:
    
    a). Cutadapt- It trims adapter sequences and also trims off low quality score regions from the files.
+   
    b). Filter- This tool filters FASTQ files if there are many N basecalls in the sequence, reads with short sequence length as well those with low mean quality score.
+   
    c). MultiQc- This tool is useful in the aggregation of different outputs from a specific tool such as FastQC thus making it easy to compare different results at once.
 
