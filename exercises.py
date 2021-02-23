@@ -34,3 +34,35 @@ The above amino acid is a bacterial restriction enzyme that recognizes "TCCGGA".
 restriction_enzyme = 'AAAAATCCCGAGGCGGCTATATAGGGCTCCGGAGGCGTAATATAAAA'
 print(restriction_enzyme.find('TCCGGA'))
 ```
+### **Program managing bank transactions**
+```
+accountbal = 50000
+choice = input("Please enter 'b' to check balance or 'w' to withdraw or 'd' to deposit: ")
+while choice != 'q':
+    if choice.lower() in ('w','b','d'):
+        if choice.lower() == 'b':
+            print("Your balance is: %d" % acountbal)
+            print("Anything else?")
+            choice = input("Enter b for balance, w to withdraw, d to deposit or q to quit: ")
+            print(choice.lower())
+        elif choice.lower() == 'w':
+            withdraw = float(input("Enter amount to withdraw: "))
+            if withdraw <= accountbal:
+                print("Here is your: %.2f" % withdraw)
+                accountbal = accountbal - withdraw
+                print("Account balance is %d" % accountbal)
+                print("Anything else?")
+                choice = input("Enter b for balance, w to withdraw, d to deposit or q to quit: ")
+            else:
+                print("You have insufficient funds: %.2f" % accountbal)
+        elif choice.lower() == 'd':
+            deposit = float(input("Enter amount to deposit: "))
+            print("You have succesfully deposited: %.2f" % deposit)
+            accountbal = accountbal + deposit
+            print("Account balance is %d" % accountbal)
+            print("Anything else?")
+            choice = input("Enter b for balance, w to withdraw, d to deposit or q to quit")
+    else:
+        print("Wrong choice!")
+        choice = input("Please enter 'b' to check balance or 'w' to withdraw or 'd to deposit': ")
+        ```
