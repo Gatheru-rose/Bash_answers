@@ -14,11 +14,13 @@
 
 ---
 
-### ***Skills learnt**
+### **Skills learnt**
 
 1. Performing Quality control on FASTQ files.
    Quality control is an essential step which should be carried out before any downstream analysis of your data. This is important so as to know the status of your FASTQ files. When the quality control step is not done during NGS analysis, this can affect downstream analysis.
+   
    Galaxy offers FastQC tool which checks the quality of the sequence files, it then provides a report in form of a webpage which outputs parameters relevant to the status of your sequence files. By assessing these parameters such as; sequence quality score, per base sequence quality, one will know the quality of the FASTQ files and whether any quality correction is needed.
+   
    There are tools available on galaxy for sequence quality correction depending on the FastQc results. They include:
    
    a). Cutadapt- It trims adapter sequences and also trims off low quality score regions from the files.
