@@ -67,16 +67,18 @@ while choice != 'q':
         choice = input("Please enter 'b' to check balance or 'w' to withdraw or 'd to deposit': ")
         ```
       
- ### Create a while loop that starts with x = 0 and increments x until x is equal to 5. Each iteration should print to the console.
+Create a while loop that starts with x = 0 and increments x until x is equal to 5. Each iteration should print to the console.
  
-    ```
-    x = 0
+```
+x = 0
 while x <= 5:
     print(x)
     x = x+1
 print("Bye")
 ```
-### Create a for loop that prints values from 4 to 10 to the console.
+Create a for loop that prints values from 4 to 10 to the console.
+
+
 ```
 i = 4
 while i <= 10:
