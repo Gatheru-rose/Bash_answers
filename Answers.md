@@ -104,6 +104,8 @@ fi
 
 ```
 
+Here is the [link]() to the script.
+
  ### Question 20
  You go back two directories back to icipe then Fun_stuff
   cd ../../Fun_stuff/
