@@ -16,18 +16,4 @@ else
   echo "Goodevening $varname! it is now $(date "+%T") on this lovely day of $(date "+%F")"
 fi
 
-#do
-#	[[ $Time -lt 12 ]] && echo "Goodmorning $varname! it is now $(date "+%T") on this lovely day of $(date "+%F")"
-#	[[ $Time -lt 18 ]] && echo "Goodafternoon $varname! it is now $(date "+%T") on this lovely day of $(date "+%F")"
-#	[[ $Time ]] && echo "Good $Time $varname! it is now $(date "%+T") on this lovely day of $(date "+%F")"
-#done
 
-#TIME=$(date "+%H")
-
-#if [ $TIME -lt 12 ]; then
- #   echo "Good morning"
-#elif [ $TIME -lt 18 ]; then
- #   echo "Good afternoon"
-#else
- #   echo "Good evening"
-#fi
