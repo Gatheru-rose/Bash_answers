@@ -2,5 +2,5 @@
 
 Hello :smiley:
 
-Find my answers to the bash exercise.
+Find my answers to the bash exercise in the Answers.md file.
 
