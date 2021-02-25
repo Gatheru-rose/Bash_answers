@@ -103,7 +103,6 @@ else
 fi
 
 ```
-
 Here is the [link](https://raw.githubusercontent.com/Gatheru-rose/Bash_answers/master/inquiry.sh) to the script.
 
  ### Question 20
