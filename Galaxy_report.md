@@ -62,7 +62,7 @@ Any NGS analysis workflow starts with Quality Control step, where FastQc is used
 
 This 5 day workshop from Galaxy GTN Smörgåsbord, was an insightful and introductory course to Next-Generation Sequence analysis. From this course, I learnt what entails by NGS workflow analysis, the importance of Quality control prior to any downstream analysis. What I loved the most about this course is that I can get back to the page and keep on learning at my own pace.
 
-Here is the link to [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/workshop).
+Here is the link to [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/workshop) course.
 
 
 
