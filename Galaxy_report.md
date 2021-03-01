@@ -3,7 +3,7 @@
 ---
 ### **Introduction**
 
-[Galaxy](https://galaxyproject.org/community/) is an online platform developed by a community of scientists. This platform is distributed in different regions by presence of [servers](https://galaxyproject.org/usegalaxy/). These servers are accessible virtually and contain various tools which aid in the analysis of different types of data. From galaxy one can access training materials from the galaxy training network (GTN) [page](https://training.galaxyproject.org/). These page consists  of a wide range of tutorials on how to use the inbuilt tools in galaxy to carry out data analysis. From 15th to 19th February 2021, I participated virtually in the GTN Smörgåsbord: [A Global Course](https://training.galaxyproject.org/training-material/smorgasbord.html). This workshop comprised of different GTN tutorials exposing one to a wide range topics during the entire week.
+[Galaxy](https://galaxyproject.org/community/) is an online platform developed by a community of scientists. This platform is distributed in different regions by presence of [servers](https://galaxyproject.org/usegalaxy/). These servers are accessible virtually and contain various tools which aid in the analysis of different types of data. From galaxy one can access training materials from the galaxy training network (GTN) [page](https://training.galaxyproject.org/). These page consists  of a wide range of tutorials on how to use the inbuilt tools in galaxy to carry out data analysis. From 15th to 19th February 2021, I participated virtually in the GTN Smörgåsbord: [A Global Course](https://training.galaxyproject.org/training-material/smorgasbord.html). This workshop comprised of different GTN tutorials exposing one to a wide range topics during the entire week. I used [Galaxy Australian server](https://usegalaxy.org.au/) in following through the hands-on tutorials. 
 
 ---
 
@@ -49,6 +49,20 @@ Any NGS analysis workflow starts with Quality Control step, where FastQc is used
 3. Encoutering errors during the hands-on tutorials.
 
 ---
+
+### **Pending Tasks**
+
+1. Completing analysis using a different galaxy server with tools available for the respective analysis.
+2. Repeating tutorials where I had errors.
+3. Going through Galaxy Training Network page and doing more practice.
+
+---
+
+### **Conclusion**
+
+This 5 day workshop from Galaxy GTN Smörgåsbord, was an insightful and introductory course to Next-Generation Sequence analysis. From this course, I learnt what entails by NGS workflow analysis, the importance of Quality control prior to any downstream analysis. What I loved the most about this course is that I can get back to the page and keep on learning at my own pace.
+
+Here is the link to [GTN Smörgåsbord](https://shiltemann.github.io/global-galaxy-course/workshop).
 
 
 
