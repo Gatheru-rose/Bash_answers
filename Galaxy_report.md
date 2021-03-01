@@ -42,5 +42,13 @@ Any NGS analysis workflow starts with Quality Control step, where FastQc is used
 
 ---
 
+### **Challenges.**
+
+1. The galaxy server I was using didn't have some of the tools necessary for certain analysis, thus didn't cover all topics for example Proteomics.
+2. Some topics were a challenge to understand and follow through e.g Proteomics and some part of Single-cell RNA-Seq.
+3. Encoutering errors during the hands-on tutorials.
+
+---
+
 
 
